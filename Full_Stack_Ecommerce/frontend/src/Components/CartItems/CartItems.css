@@ -1,0 +1,122 @@
+.cartitems {
+    background: #ae8383;
+    color: #E5E5E5;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cartitems-header {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 0.5fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #d8d2cf;
+}
+
+.cartitems-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartitem {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 0.5fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #c38b8b;
+}
+
+.carticon-product-icon {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.cartitem-title {
+    font-size: 16px;
+    color: #E5E5E5;
+}
+
+.cartitem-price,
+.cartitem-total {
+    font-size: 16px;
+    color: #E5E5E5;
+}
+
+.cartitem-quantity {
+    background: #928383;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.cartitems-remove-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.cartitems-down {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.cartitems-total {
+    background: #ca8888;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.cartitems-promocode {
+    flex: 1;
+}
+
+.cartitems-promobox {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cartitems-promobox input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #bb7777;
+    border-radius: 4px;
+    background: #eee2e2;
+    color: #FFFFFF;
+}
+
+.cartitems-promobox button {
+    background-color: #dfd4cd;
+    border: none;
+    padding: 10px 15px;
+    color: #bf9292;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.checkout-button {
+    background-color: #e2b9a3;
+    border: none;
+    padding: 15px 20px;
+    color: #ebdbdb;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}

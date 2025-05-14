@@ -1,0 +1,86 @@
+.hero {
+    min-height: 100vh; /* Full viewport height */
+    background: url('../Assets/img1.jpg') no-repeat center center/cover; /* Background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 9%;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center; /* Center align the text */
+}
+
+.hero-content h2 {
+    color: #faf4f4;
+    font-size: 24px; /* Font size for heading */
+    margin-bottom: 20px; /* Spacing between heading and text */
+}
+
+.hero-text p {
+    color: #ffffff;
+    font-size: 60px; /* Font size for text */
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjusted for better spacing */
+    width: 220px;
+    height: 50px;
+    border-radius: 25px; /* Border radius for modern look */
+    margin-top: 20px;
+    background: #ff4141;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase; /* Uppercase text */
+    text-align: center; /* Center text inside button */
+    padding: 0 50px; /* Added padding for better button text alignment */
+}
+
+.hero-latest-btn img {
+    width: 16px;
+}
+
+@media (max-width: 1200px) {
+    .hero-text p {
+        font-size: 50px; /* Adjusted font size */
+    }
+}
+
+@media (max-width: 900px) {
+    .hero-text p {
+        font-size: 40px; /* Further adjusted font size */
+    }
+}
+
+@media (max-width: 700px) {
+    .hero {
+        padding: 0 10%;
+        min-height: 95vh;
+    }
+    .hero-text p {
+        font-size: 35px; /* Font size for small screens */
+    }
+    .hero-content {
+        line-height: 1.2;
+    }
+    .hero-content h2 {
+        margin-bottom: 15px; /* Reduced margin for smaller screens */
+    }
+    .hero-latest-btn {
+        width: 200px; /* Adjusted width for small screens */
+        height: 45px; /* Adjusted height */
+        font-size: 14px; /* Adjusted font size */
+        margin-top: 25px; /* Adjusted margin */
+    }
+}
